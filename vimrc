@@ -114,3 +114,5 @@ if has("statusline") && !&cp
   set statusline+=Buf:#%n
   set statusline+=[%b][0x%B]
 endif
+
+map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
