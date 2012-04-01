@@ -36,3 +36,5 @@ files inside the ".vim" directory.
 * markdown
 * rails
 * coffee-script
+* slim
+* less
