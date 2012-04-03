@@ -44,6 +44,9 @@ set incsearch                     " incremental searching
 set ignorecase                    " searches are case insensitive...
 set smartcase                     " ... unless they contain at least one capital letter
 
+set splitright                    " Open new vertical split windows to the right of the current one, not the left.
+set splitbelow                    " See above description. Opens new windows below, not above.
+
 function s:setupWrapping()
   set wrap
   set wrapmargin=2
@@ -115,4 +118,5 @@ if has("statusline") && !&cp
   set statusline+=[%b][0x%B]
 endif
 
+" Nerdtree
 map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
