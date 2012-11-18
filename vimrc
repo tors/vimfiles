@@ -15,7 +15,7 @@ filetype plugin indent on
 
 set nonumber
 set ruler       " show the cursor position all the time
-set cursorline
+
 set showcmd     " display incomplete commands
 set shell=bash  " avoids munging PATH under zsh
 
