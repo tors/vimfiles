@@ -55,6 +55,3 @@
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
 	url = https://github.com/tpope/vim-rake.git
-[submodule "bundle/yaml-vim"]
-	path = bundle/yaml-vim
-	url = https://github.com/ingydotnet/yaml-vim.git
