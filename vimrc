@@ -120,3 +120,8 @@ endif
 
 " Nerdtree
 map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
+
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
+
+color Tomorrow-Night
