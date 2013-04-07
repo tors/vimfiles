@@ -1,5 +1,5 @@
 color Tomorrow
-set guifont=Consolas:h13
+set guifont=Source\ Code\ Pro:h12
 set linespace=2
 set cursorline
 set antialias
