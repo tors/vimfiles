@@ -124,5 +124,9 @@ map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
 
+" Escape code to change cursor shape
+" let &t_SI="\<Esc>]50;CursorShape=1\x7"
+" let &t_EI="\<Esc>]50;CursorShape=0\x7"
+
 color Tomorrow-Night
 
