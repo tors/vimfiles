@@ -129,4 +129,4 @@ hi CursorLine term=bold cterm=bold guibg=Grey40
 " let &t_EI="\<Esc>]50;CursorShape=0\x7"
 
 color Tomorrow-Night
-
+au BufNewFile,BufRead *.ejs set filetype=html

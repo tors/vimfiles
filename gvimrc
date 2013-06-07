@@ -1,4 +1,4 @@
-color Tomorrow
+color Tomorrow-Night-Eighties
 set guifont=Source\ Code\ Pro:h12
 set linespace=2
 set cursorline
