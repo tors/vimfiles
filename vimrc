@@ -131,5 +131,12 @@ hi CursorLine term=bold cterm=bold guibg=Grey40
 color Tomorrow-Night
 au BufNewFile,BufRead *.ejs set filetype=html
 
-" indentLine
-let g:indentLine_char = '┊'
+" Indent guides
+if !has('gui_running')
+  let g:indent_guides_auto_colors=0
+  autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=237
+  autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=239
+endif
+let g:indent_guides_enable_on_vim_startup=1
+let g:indent_guides_guide_size=1
+
